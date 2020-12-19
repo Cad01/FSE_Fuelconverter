@@ -14,18 +14,18 @@ def retrieve():
     if Var1.get() == 1: #check 100LL
         # check for data to display and do corresponding math
         if gal1 != 0 and kg1 == 0 :
-            outputKg = gal1 * 2.68785
+            outputKg = gal1 * 2.68735
             Output.set("%.3f kg " % ( outputKg ))
 
         elif kg1 != 0 and gal1 == 0 :
 
-            outputGal = kg1 / 2.68785
+            outputGal = kg1 / 2.68735
             Output.set(" %.3f gal" % ( outputGal))
 
         else     :
 
-            outputKg = gal1 * 2.68785
-            outputGal = kg1 / 2.68785
+            outputKg = gal1 * 2.68735
+            outputGal = kg1 / 2.68735
             Output.set(" %.3f gal      %.3f kg " % ( outputGal, outputKg ))
         
     elif Var1.get() == 2: #check JetA
