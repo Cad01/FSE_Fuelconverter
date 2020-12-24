@@ -108,5 +108,5 @@ labelOutput.pack(pady = 10 )
 
  
 
-root.title("FSE Fuel Converter 1.0 by cad01")
+root.title("FSE Fuel Converter 1.1 by cad01")
 root.mainloop()
